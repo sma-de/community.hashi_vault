@@ -25,7 +25,7 @@ from ansible.module_utils.common.validation import (
     check_type_int,
 )
 
-from ansible_collections.community.hashi_vault.plugins.module_utils._hashi_vault_common import HashiVaultOptionGroupBase
+from ansible_collections.smabot.hvtest.plugins.module_utils._hashi_vault_common import HashiVaultOptionGroupBase
 
 # we implement retries via the urllib3 Retry class
 # https://github.com/ansible-collections/community.hashi_vault/issues/58
