@@ -1,7 +1,7 @@
 # See https://docs.ansible.com/ansible/latest/dev_guide/collections_galaxy_meta.html
 
-namespace: community
-name: hashi_vault
+namespace: smabot
+name: hvtest
 version: 4.1.0-devel
 readme: README.md
 authors:

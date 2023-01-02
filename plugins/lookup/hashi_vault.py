@@ -268,6 +268,7 @@ class LookupModule(HashiVaultLookupBase):
             self.process_options()
 
             client_args = self.connection_options.get_hvac_connection_options()
+            display.v("da client args => " + str(client_args))
             self.client = self.helper.get_vault_client(**client_args)
 
             try:
