@@ -40,11 +40,6 @@ DOCUMENTATION = """
     - As of community.hashi_vault 0.1.0, only the latest version of a secret is returned when specifying a KV v2 path.
     - As of community.hashi_vault 0.1.0, all options can be supplied via term string (space delimited key=value pairs) or by parameters (see examples).
     - As of community.hashi_vault 0.1.0, when I(secret) is the first option in the term string, C(secret=) is not required (see examples).
-  extends_documentation_fragment:
-    - community.hashi_vault.connection
-    - community.hashi_vault.connection.plugins
-    - community.hashi_vault.auth
-    - community.hashi_vault.auth.plugins
   options:
     secret:
       description: Vault path to the secret being requested in the format C(path[:field]).
