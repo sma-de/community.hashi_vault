@@ -16,7 +16,7 @@ __metaclass__ = type
 
 import os
 
-from ansible_collections.community.hashi_vault.plugins.module_utils._hashi_vault_common import (
+from ansible_collections.smabot.hvtest.plugins.module_utils._hashi_vault_common import (
     HashiVaultAuthMethodBase,
     HashiVaultValueError,
 )
