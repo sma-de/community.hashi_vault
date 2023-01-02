@@ -254,6 +254,8 @@ class LookupModule(HashiVaultLookupBase):
 
         ret = []
 
+        print("foobar")
+
         for term in terms:
             opts = kwargs.copy()
             opts.update(self.parse_kev_term(term, first_unqualified='secret', plugin_name='hashi_vault'))
